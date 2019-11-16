@@ -1,0 +1,30 @@
+Phase transitions and critical temperature
+
+Phase transitions analysis was conducted by the Ising model with five difference sizes of lattices (20X20, 40X40, 60X60, 80X80 and 100X100). All expected values were simulated over a temperature range T=[2.20,2.36] where we expect the critical temperature for phase transition. The step of temperateure is 0.02 and using 10^6 Monte Carlo cycles. Our critical temperature was compared with the exact result from Lars Onsager (ref-2-!!!). The exact critical temperature Tc(L) for a finite lattice of size LxL can calculate as
+
+Tc(L) − Tc(L = ∞) = aL^(−1/ν)
+
+where a is a constant and the exponent constant ν.
+Applying two lattices with sizes L 1 × L 1 and L 2 × L 2 gives us the
+opportunity to write
+
+Tc(L1) − Tc(L = ∞) = a/L1
+
+Tc(L2) − Tc(L = ∞) = a/L2
+
+Then solving this set of equations for T C (L = ∞) by eliminating a gives
+Tc(L = ∞) = (L2 Tc(L2) − L1 Tc(L1))/(L 2 − L 1)
+
+The critical temperature was expected where the susceptibility is maximum. As shown in figure ???, the maximum susceptibiltty for the 100X100 lattices is 2.26 which strongly corresponds with the Onsagers exact result of 2.269, approximately (ref-2-). This apparently represents the effect of larger sizes of lattices to estimation of the critical temperature. 
+
+
+
+
+references
+-1-
+Morten Hjorth-Jensen. Computational physics. FYS3150/4150 Lecture Notes, 2015.
+
+-2-   
+Lars Onsager. Crystal statistics. i. a two-dimensional model with an order-disorder transition.
+Phys. Rev., 65:117–149, Feb 1944.
+
